@@ -19,7 +19,7 @@
         "@pollyjs/core": "^5.1.0",
         "codeceptjs": "^3.0.4",
         "playwright": "^1.8.0",
-        "puppeteer": "^6.0.0"
+        "puppeteer": "^2.1.1"
     },
     "dependencies": {
         "codeceptjs-resemblehelper": "^1.9.3"

@@ -16,9 +16,8 @@ module.exports = {
     I.search(text);
     I.click("#hdtb-msb > div:nth-child(1) > div > div:nth-child(2) > a");
     I.wait(2);
-    I.waitForElement('//*[@id="pane"]/div/div[1]/div/div/div[2]', 10);
-    I.wait(2);
-    I.waitForElement('//*[@id="pane"]/div/div[1]/div/div/div[1]/div[1]/button/img', 10);
+    //I.waitForElement('//*[@id="pane"]/div/div[1]/div/div/div[2]', 10);
+    //I.waitForElement('//*[@id="pane"]/div/div[1]/div/div/div[1]/div[1]/button/img', 10);
   }
 
 }

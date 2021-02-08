@@ -1,14 +1,14 @@
-Feature('Calculator').timeout(5000);
+Feature('Calculator');
 
 const { I, mainPage, searchResultPage } = inject();
 
 Scenario('Calculator Visual Test', () => {
   I.openCalculator("2+3");
   I.saveScreenshot("Calculator.png");
-  I.seeVisualDiff("Calculator.png", {tolerance: 7, prepareBaseImage: false});
+  I.seeVisualDiff("Calculator.png", {tolerance: 8, prepareBaseImage: false});
 });
 
-Scenario('Calculator Mock', () => {
+Scenario('Calculator', () => {
     I.openCalculator("2+3");
     I.click("//div[@jsname='N10B9']");
     I.click("//div[@jsname='XSr6wc']");
